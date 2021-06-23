@@ -13,11 +13,11 @@ body {
     background-repeat: no-repeat;
     background-position: bottom;
 }
-.pageTopic
+#pageTopic
 {
     text-align: center;
-    font-size: 14px;
-    font-weight: 900;
+    /* font-size: 14px;
+    font-weight: 900; */
 }
 .colorContainer
 {
@@ -72,19 +72,19 @@ font-weight: 500
 {
 font-weight: 700
 }
-.typography h1{
+h1{
     font-size:50px;
     font-weight: 900;
 }
-.typography h2{
+h2{
     font-size: 42px;
     font-weight: 700;
 }
-.typography h3{
+h3{
     font-size: 34px;
     font-weight: 700;
 }
-.typography h4{
+h4{
     font-size: 26px;
 }
 
