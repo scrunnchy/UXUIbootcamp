@@ -1,0 +1,79 @@
+.nav{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item{
+    z-index: 99;
+}
+
+.nav-link{
+    color:white;
+    margin: 20px 5vw;
+}
+
+#logo{
+    align-self: center;
+    margin-right: 15vw;
+    z-index: 99;
+
+}
+
+#hamburger{
+    align-self: center;
+    margin-left: 15vw;
+    z-index: 99;
+}
+
+/* JUMBOTRON */
+
+.jumbotron{
+    background-color: red;
+    background-image: url("../images/hero.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    transform: translate(0, -80px);
+    height:620px;
+}
+
+.display-4{
+    margin-top: 150px;
+    color:white;
+    text-align: center;
+}
+
+.jumbotron img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+}
+
+/* ADVENTURE */
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+
+    color:orange;
+    font-size: 25px !important;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    margin: 20px;
+}
+
+.btn-primary{
+    background-color: orange;
+    border-color: orange;
+}
